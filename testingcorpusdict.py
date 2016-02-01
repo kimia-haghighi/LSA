@@ -30,6 +30,6 @@ print(dictionary)
 
 #create a corpus, which creates a sparse matrix, in matrix market format (MmCorpus). using doc2bow converts from tokens to number of instances.
 corpus = [dictionary.doc2bow(text) for text in texts]
-corpora.MmCorpus.serialize('/tmp/deerwester.mm', corpus) # store to disk, for later use
+corpora.MmCorpus.serialize('C:/Users/Kimia/Documents/GitHub/LSA/tmp/deerwester.mm', corpus) # store to disk, for later use
 print(corpus)
 
